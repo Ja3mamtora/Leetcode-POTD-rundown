@@ -5,7 +5,6 @@ class Solution {
             int d = s.charAt(i) - 'a'+1;
             t += d;
         }
-
         int ans = 0;
         while(k > 0) {
             int sum = 0;
